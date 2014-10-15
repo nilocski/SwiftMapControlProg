@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33C5DF1D19E5437C00967838 /* halloween.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33C5DF1C19E5437C00967838 /* halloween.jpg */; };
+		33C5DF1F19E56EA400967838 /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C5DF1E19E56EA400967838 /* MapPin.swift */; };
 		33E970AE19E4BCFF00F9CB43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E970AD19E4BCFF00F9CB43 /* AppDelegate.swift */; };
 		33E970B019E4BCFF00F9CB43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E970AF19E4BCFF00F9CB43 /* ViewController.swift */; };
 		33E970B319E4BCFF00F9CB43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E970B119E4BCFF00F9CB43 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33C5DF1C19E5437C00967838 /* halloween.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = halloween.jpg; sourceTree = "<group>"; };
+		33C5DF1E19E56EA400967838 /* MapPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
 		33E970A819E4BCFF00F9CB43 /* SwiftMapControlsProg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMapControlsProg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E970AC19E4BCFF00F9CB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33E970AD19E4BCFF00F9CB43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 			children = (
 				33E970AD19E4BCFF00F9CB43 /* AppDelegate.swift */,
 				33E970AF19E4BCFF00F9CB43 /* ViewController.swift */,
+				33C5DF1E19E56EA400967838 /* MapPin.swift */,
 				33E970B119E4BCFF00F9CB43 /* Main.storyboard */,
 				33E970B419E4BCFF00F9CB43 /* Images.xcassets */,
 				33E970B619E4BCFF00F9CB43 /* LaunchScreen.xib */,
@@ -91,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				33E970AC19E4BCFF00F9CB43 /* Info.plist */,
+				33C5DF1C19E5437C00967838 /* halloween.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -195,6 +201,7 @@
 				33E970B319E4BCFF00F9CB43 /* Main.storyboard in Resources */,
 				33E970B819E4BCFF00F9CB43 /* LaunchScreen.xib in Resources */,
 				33E970B519E4BCFF00F9CB43 /* Images.xcassets in Resources */,
+				33C5DF1D19E5437C00967838 /* halloween.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33C5DF1F19E56EA400967838 /* MapPin.swift in Sources */,
 				33E970B019E4BCFF00F9CB43 /* ViewController.swift in Sources */,
 				33E970AE19E4BCFF00F9CB43 /* AppDelegate.swift in Sources */,
 			);
@@ -407,6 +415,7 @@
 				33E970C919E4BCFF00F9CB43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33E970CA19E4BCFF00F9CB43 /* Build configuration list for PBXNativeTarget "SwiftMapControlsProgTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				33E970CC19E4BCFF00F9CB43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
